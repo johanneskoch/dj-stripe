@@ -544,6 +544,8 @@ class SubscriptionStatus(Enum):
     past_due = _("Past due")
     canceled = _("Canceled")
     unpaid = _("Unpaid")
+    incomplete = _("Incomplete")
+    incomplete_expired = _("Incomplete expired")
 
 
 class DjstripePaymentMethodType(Enum):
